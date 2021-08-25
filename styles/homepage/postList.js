@@ -12,6 +12,7 @@ export const postListStyles = css.global`
 
   .blog-post h2 {
     margin: 0;
+    font-weight: bold;
   }
 
   .blog-post h2:hover {

@@ -13,6 +13,7 @@ import {
  import { ColorModeSwitcher } from '../styles/ColorModeSwitcher';
  import { SmallAddIcon } from '@chakra-ui/icons';
  import "@fontsource/rubik/400.css";
+import splitbee from '@splitbee/web';
 
  const colors = {
   brand: {
@@ -48,5 +49,13 @@ function MyApp({ Component, pageProps }) {
     </ChakraProvider>
   )
 }
+
+// This initiliazes Splitbee.js
+splitbee.init()
+
+// Attach data to the current user
+splitbee.user.set({
+    email: "farhanaz.rupaidha@gmail.com"
+})
 
 export default MyApp
