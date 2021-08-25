@@ -12,7 +12,7 @@ export const postStyles = css.global`
     display: block;
     max-width: 700px;
     margin: 0 auto 2em auto;
-    font-family: "Lato", sans-serif;
+    font-family: helvetica;
     font-size: 16px;
   }
   .back:before {
@@ -26,10 +26,11 @@ export const postStyles = css.global`
   }
   .back a:hover {
     text-decoration: underline;
+    color: #FF0000;
   }
   .container {
-    max-width: 700px;
-    margin: auto;
+    max-width: 900px;
+    margin: 3em auto;
   }
 
   .post-part.single a,

@@ -14,11 +14,12 @@ export const globals = css.global`
   /*
  * Globals
  */
+
   body {
     padding: 3rem 0 0 0;
     color: #353535;
     line-height: 1.5;
-    font-family: "PT Serif", serif;
+    font-family: helvetica;
     font-size: 20px;
   }
   a {
@@ -49,7 +50,7 @@ export const globals = css.global`
   h4,
   h5,
   h6 {
-    font-family: "Lato", sans-serif;
+    font-family: helvetica;
   }
   h1 {
     margin-bottom: 1rem;
@@ -59,13 +60,13 @@ export const globals = css.global`
   }
   h2 {
     margin-bottom: 1rem;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 900;
     line-height: 40px;
   }
   h3 {
     margin-bottom: 1rem;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 900;
   }
   p {

@@ -22,7 +22,7 @@ export const headerStyles = css.global`
     line-height: 30px;
     margin-bottom: 3rem;
     padding-bottom: 3rem;
-    font-family: "Lato", sans-serif;
+    font-family: helvetica;
     border-bottom: 1px solid #dadada;
   }
 `;

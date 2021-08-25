@@ -17,7 +17,7 @@ import "@fontsource/rubik/400.css";
  * Site footer component
  */
 const Footer = () => (
-  <footer>
+  <footer> 
    <Stack boxShadow="dark-lg" h="130px">
      <Flex>
     <Box p="4">

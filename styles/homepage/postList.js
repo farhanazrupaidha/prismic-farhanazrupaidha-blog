@@ -14,9 +14,14 @@ export const postListStyles = css.global`
     margin: 0;
   }
 
+  .blog-post h2:hover {
+    color: #FF0000;
+    text-decoration: underline;
+  }
+
   .blog-post-meta {
     color: #9a9a9a;
-    font-family: "Lato", sans-serif;
+    font-family: helvetica;
     margin-bottom: 8px;
   }
 
